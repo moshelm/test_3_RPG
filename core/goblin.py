@@ -1,4 +1,4 @@
-from orc import Monster
+from core.orc import Monster
 import random
 
 class Goblin(Monster):
@@ -16,6 +16,3 @@ class Goblin(Monster):
 
     def attack(self):
         pass
-d = Goblin('wer')
-print(d.type,d.hp)
-d.speak()

@@ -1,4 +1,4 @@
-from player import Entity
+from core.player import Entity
 import random
 
 class Monster(Entity):
@@ -43,7 +43,3 @@ class Orc(Monster):
     def attack(self):
         pass
 
-#
-# w =Orc('df')
-# print(w.weapon(),w.hp,w.type, )
-# w.speak()
